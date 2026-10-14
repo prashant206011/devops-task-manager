@@ -8,9 +8,6 @@ Browser → Frontend (Nginx) → Node/Express Backend → MongoDB
                                                    ↓  
                                               Named Volume
 
-## Application Screenshot
-
-![DevOps Task Manager]Screenshot 2026-10-14 163115.png
 
 ## Technologies
 
