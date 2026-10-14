@@ -10,7 +10,7 @@ Browser → Frontend (Nginx) → Node/Express Backend → MongoDB
 
 ## Application Screenshot
 
-![DevOps Task Manager]
+![DevOps Task Manager]Screenshot 2026-10-14 163115.png
 
 ## Technologies
 
