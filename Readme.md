@@ -1,23 +1,23 @@
-DevOps Task Manager
+# DevOps Task Manager
 
-Architecture:
-Browser → Frontend (Nginx) → Node/Express Backend → MongoDB
-                                               ↓
-                                         Named Volume
+A multi-container task management application built to practice Docker Compose.
 
-Technologies:
-Docker
-Docker Compose
-Nginx
-Node.js
-Express
-MongoDB
-Git/GitHub
+## Architecture
 
-Features:
-- Create tasks
-- View tasks
-- Mark tasks complete
-- Delete tasks
-- Persistent database storage
-- Multi-container networking
+Browser → Frontend (Nginx) → Node/Express Backend → MongoDB  
+                                                   ↓  
+                                              Named Volume
+
+## Application Screenshot
+
+![DevOps Task Manager]
+
+## Technologies
+
+- Docker
+- Docker Compose
+- Nginx
+- Node.js
+- Express
+- MongoDB
+- Git/GitHub
