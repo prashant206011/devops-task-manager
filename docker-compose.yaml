@@ -1,0 +1,25 @@
+services:
+  mongodb:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+  backend:
+    build: ./backend
+    ports:
+      - "8080:80"
+    depends_on:
+      - mongodb
+    env_file:
+      - ./env/backend.env
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+
+
+volumes:
+  mongo-data:
+
